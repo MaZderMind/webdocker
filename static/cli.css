@@ -1,0 +1,58 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+}
+
+.window {
+    display: flex;
+    flex-direction: column;
+
+    width: 50vw;
+    height: 60vh;
+
+    background: black;
+    border-radius: .5rem;
+    margin: auto;
+}
+
+.buttons {
+    height: 1.5rem;
+    width: 3.25rem;
+    margin-left: auto;
+
+    background-size: 1rem 1rem;
+    background-repeat: no-repeat;
+    background-position: 0 50%, 1rem 50%, 2rem 50%;
+    background-image: radial-gradient(#fe4138 45%, transparent 55%),
+    radial-gradient(#ffb700 45%, transparent 55%),
+    radial-gradient(#00c500 45%, transparent 55%);
+}
+
+.log {
+    padding: 0 1rem;
+    color: green;
+    font-family: monospace;
+    white-space: pre-line;
+
+    overflow-y: auto;
+}
+
+.prompt {
+    margin-top: auto;
+    padding: 1rem;
+
+    color: green;
+    font-family: monospace;
+}
+
+.prompt-input {
+    background: transparent;
+    border: none;
+    outline: none;
+
+    color: green;
+    font-family: monospace;
+}
